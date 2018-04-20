@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-  productGUID: 00000000000000000000000000000000
+  productGUID: 57d3a9c97e4f8114dba36a96d3138ff8
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -713,12 +713,12 @@ PlayerSettings:
     Game_Performance: 0
     Hub: 0
     Purchasing: 0
-    UNet: 0
+    UNet: 1
     Unity_Ads: 0
-  facebookSdkVersion: 
+  facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: ae5b875b-b7ab-4d88-b763-0fab77094ff4
-  projectName: 
+  projectName: UNET Simple VR
   organizationId: tejas_shroff1235
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
