@@ -11,6 +11,9 @@ public class Bullet : MonoBehaviour {
         var hitPlayer = hit.GetComponent<PlayerMove>();
         if(hitPlayer != null)
         {
+            //if the colliding player object is not null, then lower the player's health
+            var combat = hit.GetComponent<Combat>();
+            combat.TakeDamage(10);
             Destroy(gameObject);
         }
     }
