@@ -50,6 +50,7 @@ public class PlayerMove : NetworkBehaviour {
         // fire a bullet if the space key is pressed
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            // This function is called by the client, but invoked on the server
             CmdFire();
         }
 	}
