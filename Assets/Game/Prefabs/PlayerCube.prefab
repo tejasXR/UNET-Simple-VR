@@ -22,9 +22,11 @@ GameObject:
   - component: {fileID: 33473975752555462}
   - component: {fileID: 65309746491516794}
   - component: {fileID: 23292663449966718}
-  - component: {fileID: 114760737714835924}
   - component: {fileID: 114662857411722780}
   - component: {fileID: 114975437650162700}
+  - component: {fileID: 114760737714835924}
+  - component: {fileID: 114549791961592078}
+  - component: {fileID: 114898081503500176}
   m_Layer: 0
   m_Name: PlayerCube
   m_TagString: Untagged
@@ -98,6 +100,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114549791961592078
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1827634606506382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6790fe22ef5f36e48b448e066a65b509, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
 --- !u!114 &114662857411722780
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -143,6 +157,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1707710146067328, guid: a4847ddd85f032545aca890ea66f7de1,
     type: 2}
+--- !u!114 &114898081503500176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1827634606506382}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709e7ea9b4817c04bb031b597a0ea561, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114975437650162700
 MonoBehaviour:
   m_ObjectHideFlags: 1

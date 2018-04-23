@@ -284,7 +284,8 @@ MonoBehaviour:
   m_PlayerSpawnMethod: 0
   m_OfflineScene: 
   m_OnlineScene: 
-  m_SpawnPrefabs: []
+  m_SpawnPrefabs:
+  - {fileID: 1707710146067328, guid: a4847ddd85f032545aca890ea66f7de1, type: 2}
   m_CustomConfig: 0
   m_MaxConnections: 4
   m_ConnectionConfig:
@@ -472,6 +473,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1707710146067328, guid: a4847ddd85f032545aca890ea66f7de1, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a4847ddd85f032545aca890ea66f7de1, type: 2}
   m_IsPrefabParent: 0
@@ -516,14 +521,8 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1827634606506382, guid: dfad8f09bbc893a4894fe69dd591818d, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114760737714835924, guid: dfad8f09bbc893a4894fe69dd591818d,
-        type: 2}
-      propertyPath: bulletPrefab
-      value: 
-      objectReference: {fileID: 1707710146067328, guid: a4847ddd85f032545aca890ea66f7de1,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dfad8f09bbc893a4894fe69dd591818d, type: 2}
   m_IsPrefabParent: 0
